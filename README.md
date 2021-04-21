@@ -61,5 +61,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+ER Diagram for my project
 
 ![ERD](https://user-images.githubusercontent.com/75592882/115533226-5a717800-a2b8-11eb-8275-a56b6cb66b68.png)
+
+
+Documentation for project 
+                                        GoFreestyle
+
+What is freestyle football?
+To describe it simply, freestyle football is an activity that uses all parts of the body to perform tricks with a football.
+It’s a sport that’s massively gained in popularity over the last few years. When a huge Nike advertising campaign in the early 2000s showcased the ‘freestyle’ element of football, the sport really began to take off. There are now roughly 5,000 professional freestylers in the world and at least 500,000 people who actively practise the sport.
+
+GoFreestyle is an academy of freestyle football. 
+
+Our academy teaches our students freestyle football - do different tricks with the ball, develop creativity. We have professional coaches that teach our students to freestyle football, and all of our coaches are popular professional freestylers. With learning freestyle football with us students can participate in a lot of championships and tournaments and upgrade their skills in freestyle. Our coaches also have participated in tournaments of world level and they have prize places in these tournaments and championships.
+
+In the ER Diagram as you see there are 3 tables(Coaches, Students, Queries).
+
+In the Queries table we store the queries(datas) which came from <forms> in our website, because every junior who wants to join our Academy and learn freestyle football should fill the forms in our website.
+
+In the Coaches table we store data of our coaches and every coach has an ID number, it is the primary key of this table.
+
+And we have the table Students, in this table there is coach_id, it is the foreign key of Coaches table and also there is the ID number of every student, which is the primary key of this table(Students table).
+
