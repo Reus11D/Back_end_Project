@@ -1,0 +1,856 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    /* overflow-x: hidden; */
+}
+.main_menu{
+    background-image: url('../images/david.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.menu{
+    padding-top: 30px;
+    letter-spacing: normal;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#logo_id{
+    margin-top: -90px;
+    margin-left: 30px;
+    width: 180px;
+}
+.menu #m1{
+    padding-bottom: 15px;
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+.menu a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    color: #fff;
+}
+#texdecoration{
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+}
+.container{
+    margin: 0 auto;
+}
+.rating .container, .shop .container{
+    border-right: 2px solid #f8e4b7;
+border-left: 2px solid #f8e4b7;
+}
+.icon{
+    float: left;
+    color: white;
+    display: none;
+}
+label{
+    font-size: 30px;
+    margin: 15px 0 0 10px;
+}
+#toggle{
+    display: none;
+}
+.text{
+    max-width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+#f1, #f2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+#f2{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+#about{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+#f1, #f2, #about{
+}
+#b1{
+    max-width: 100px;
+}
+.sponsores{
+    max-width: 100%;
+    height: 100px;
+    background-color: #eeeded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nike_logo{
+    height: 50px;
+    width: 100px; 
+    margin-top: 15px;
+}
+#adidas_logo, #puma_logo{
+    max-width: 150px;
+    height: 110px;
+}
+.rating {
+    padding: 50px 0 65px 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    margin-bottom: 0;
+    margin-top: 36px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rating .rating_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.rating .rating_block .rating_round_1, .rating_round_2, .rating_round_3,.rating_round_4,.rating_round_5,.rating_round_6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    border: 3px solid red;
+    border-radius: 100%;
+}
+#i1, #i2, #i3, #i4, #i5, #i6{
+    width: 110px; 
+    height: 110px;
+    border-radius: 100%; 
+    opacity: 1;
+}
+
+.rating .rating_block .rating_descr {
+    width: 343px;
+}
+
+.rating .rating_block .rating_descr .rating_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.rating .rating_block .rating_descr .rating_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.shop .subtitle{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+  }
+.shop{
+    min-height: 800px;
+    padding: 40px 0 79px 0;
+    background-color: #f4f4f4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    border-top: 2px solid white;
+}
+.shop .row{
+    margin-top: 32px;
+}
+.shop .row .things_1{
+    position: relative;
+		width: 270px;
+		height: 230px;
+		margin: 0 auto;
+		margin-bottom: 19px;
+        padding-top: 92px;
+}
+#s1{
+    background-image: url('../images/ball_1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f8e4b7;
+}
+#s2{
+    background-image: url('../images/clothing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f8e4b7;
+}
+#s3{
+    background-image: url('../images/ball_holder.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f8e4b7;
+}
+#s4{
+    background-image: url('../images/shoes_5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f8e4b7;
+}
+#s5{
+    background-image: url('../images/t-shirt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f8e4b7;
+}
+#s6{
+    background-image: url('../images/bag.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f8e4b7;
+}
+.things_subtitle{
+    color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
+	text-transform: uppercase;
+    text-align: center;
+    background-color: rgb( 255, 10, 10, 0.67);
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.about_fs{
+    height: 850px;
+    background-image: url('../images/4fs.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.about_fs .bg{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: inherit;
+}
+.freestyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    height: inherit;
+    padding-top: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.freestyle #div_1{
+    background-color: rgb( 255, 10, 10, 0.8);
+    border-radius: 2px;
+}
+.freestyle #h1{
+    font-size: 40px;
+    color: white;
+}
+.freestyle #p1{
+    font-size: 20px;
+}
+.about_fs .container{
+    margin: 0 auto;
+}
+.freestyle #div_2{
+    padding-top: 60px;
+}
+.contact{
+    height: 500px;
+    background-color: #34626c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact #contact-h1{
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contact #contact-p1{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contact .contact-sentence{
+    color: white;
+}
+#logo-form{
+    width: 150px;
+}
+#input{
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+}
+#div2{
+    padding-top: 10px;
+}
+.foot{
+    background-color: #0a043c;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright, .all_rights{
+    color: white;
+}
+@media (max-width: 700px){
+    .main_menu{
+        height: 100%;
+    }
+    #logo_id{
+        margin-top: 17px;
+    }
+    .icon{
+        display: block;
+    }
+    .text{
+        margin-top: -2px;
+        width: 100%;
+    /* border: 2px solid red; */
+    }
+    #f1, #f2{
+        font-size: 40px;
+        text-align: center;
+    }
+    #about{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -22px;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        display:block;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    .menu div{
+        border-bottom: 1px solid white;
+    }
+    #toggle:checked + .menu{
+        display: none;
+    }
+    .contact #contact-h1{
+        font-size: 34px;
+    }
+    .contact #contact-p1{
+        font-size: 17px;
+    }
+    #input{
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+    }
+    .contact-forms #logo-form{
+        width: 130px;
+    }
+    .contact-forms #b1{
+        width: 80px;
+    }
+    .footer-link p{
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #919eb1;
+        margin-bottom: 35px;
+    }
+    .footer-link p, a{
+        padding-left: 10px;
+    }
+    #insta, #vk{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width: 320px){
+    .main_menu{
+        min-height: 600px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    #logo_id{
+        width: 100px;
+    }
+    .menu #m1{
+        margin-right: 30px
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .menu a:hover{
+        text-decoration: none;
+        border-bottom: 2px solid white;
+        color: #fff;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    .rating .container, .shop .container{
+        border-right: 2px solid #f8e4b7;
+        border-left: 2px solid #f8e4b7;
+    }
+    .text{
+        padding-top: 50px;
+    }
+    #f1, #f2{
+        font-size: 30px;
+    }
+    #f2{
+        margin-left: 0;
+    }
+    #about{
+        font-size: 20px;
+        text-align: center;
+    }
+    #b1{
+        width: 120px;
+    }
+    .sponsores{
+        height: 80px;
+    }
+    #nike_logo{
+        height: 40px;
+        width: 60px; 
+    }
+    #adidas_logo, #puma_logo{
+        width: 90px;
+        height: 75px;
+    }
+    .rating {
+        padding: 20px 0 45px 0;
+    }
+    .title {
+        font-size: 30px;
+        font-weight: 600px;
+    }
+    .rating .rating_block .rating_round_1, .rating_round_2, .rating_round_3,.rating_round_4,.rating_round_5,.rating_round_6{
+        margin-right: 0;
+        width: 90px;
+        height: 90px;
+        border: 3px solid red;
+        border-radius: 100%;
+        margin-right: 26px;
+    }
+    #i1, #i2, #i3, #i4, #i5, #i6{
+        width: 87px; 
+        height: 87px;
+        border-radius: 100%; 
+    }
+    .rating .rating_block .rating_descr {
+        width: 330px;
+    }
+    
+    .rating .rating_block .rating_descr .rating_subtitle{
+        line-height: 21px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .rating .rating_block .rating_descr .rating_text {
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 21px;
+    }
+    
+    .shop .subtitle{
+        text-align: center;
+      }
+    .shop{
+        min-height: 800px;
+    }
+    .things_subtitle{
+        font-size: 20px;
+        font-weight: 300;
+	    line-height: 31px;
+    }
+    .freestyle #h1{
+        font-size: 30px;
+    }
+    .freestyle #p1{
+        font-size: 15px;
+    }
+    .about_fs .container{
+        margin: 0 auto;
+    }
+    .freestyle #div_2{
+        padding-top: 50px;
+    }
+    .contact{
+        height: 500px;
+    }
+    .full-contact{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .contact #contact-h1{
+        font-size: 30px;
+    }
+    .contact #contact-p1{
+        font-size: 12px;
+    }
+    .contact .contact-sentence{
+        margin-right: 3px;
+    }
+    #logo-form{
+        width: 30px;
+    }
+    #input{
+        border-radius: 5px;
+        width: 140px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 2px;
+    }
+    #div2{
+        
+     }
+     .contact-forms #b1{
+         font-size: 13px;
+     }
+    .foot{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright, .all_rights{
+        color: white;
+    }
+}
+@media (max-width: 376px){
+    .main_menu{
+        min-height: 600px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    #logo_id{
+        width: 100px;
+    }
+    .menu #m1{
+        margin-right: 30px
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .menu a:hover{
+        text-decoration: none;
+        border-bottom: 2px solid white;
+        color: #fff;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    .sponsores{
+        height: 80px;
+    }
+    #nike_logo{
+        height: 40px;
+        width: 80px; 
+    }
+    #adidas_logo, #puma_logo{
+        width: 110px;
+        height: 85px;
+    }
+    .rating {
+        padding: 20px 0 45px 0;
+    }
+    .title {
+        font-size: 32px;
+        font-weight: 600px;
+    }
+    .rating .rating_block .rating_round_1, .rating_round_2, .rating_round_3,.rating_round_4,.rating_round_5,.rating_round_6{
+        margin-right: 0;
+        width: 100px;
+        height: 100px;
+        border: 3px solid red;
+        border-radius: 100%;
+        margin-right: 26px;
+    }
+    #i1, #i2, #i3, #i4, #i5, #i6{
+        width: 97px; 
+        height: 97px;
+        border-radius: 100%; 
+    }
+    .rating .rating_block .rating_descr {
+        width: 330px;
+    }
+    
+    .rating .rating_block .rating_descr .rating_subtitle{
+        line-height: 21px;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .rating .rating_block .rating_descr .rating_text {
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 21px;
+    }
+    
+    .shop .subtitle{
+        text-align: center;
+      }
+    .shop{
+        min-height: 800px;
+    }
+    .things_subtitle{
+        font-size: 20px;
+        font-weight: 300;
+	    line-height: 31px;
+    }
+    .freestyle #h1{
+        font-size: 33px;
+    }
+    .freestyle #p1{
+        font-size: 17px;
+    }
+    .about_fs .container{
+        margin: 0 auto;
+    }
+    .freestyle #div_2{
+        padding-top: 50px;
+    }
+    .contact{
+        height: 500px;
+    }
+    .full-contact{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .contact #contact-h1{
+        font-size: 30px;
+    }
+    .contact #contact-p1{
+        font-size: 12px;
+    }
+    .contact .contact-sentence{
+        margin-right: 3px;
+    }
+    #logo-form{
+        width: 30px;
+    }
+    #input{
+        border-radius: 5px;
+        width: 140px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 2px;
+    }
+    #div2{
+        
+     }
+     .contact-forms #b1{
+         font-size: 13px;
+     }
+    .foot{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright, .all_rights{
+        font-size: 13px;
+        color: white;
+    }
+}
+@media (max-width: 426px){
+    .main_menu{
+        min-height: 600px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    #logo_id{
+        width: 100px;
+    }
+    .menu #m1{
+        margin-right: 30px
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .menu a:hover{
+        text-decoration: none;
+        border-bottom: 2px solid white;
+        color: #fff;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    #logo_id{
+        width: 130px;
+    }
+    .sponsores{
+        height: 80px;
+    }
+    #nike_logo{
+        height: 40px;
+        width: 80px; 
+    }
+    #adidas_logo, #puma_logo{
+        width: 110px;
+        height: 85px;
+    }
+    .rating {
+        padding: 20px 0 45px 0;
+    }
+    .title {
+        font-size: 32px;
+        font-weight: 600px;
+    }
+    .rating .rating_block .rating_round_1, .rating_round_2, .rating_round_3,.rating_round_4,.rating_round_5,.rating_round_6{
+        margin-right: 0;
+        width: 100px;
+        height: 100px;
+        border: 3px solid red;
+        border-radius: 100%;
+        margin-right: 26px;
+    }
+    #i1, #i2, #i3, #i4, #i5, #i6{
+        width: 97px; 
+        height: 97px;
+        border-radius: 100%; 
+    }
+    .rating .rating_block .rating_descr {
+        width: 330px;
+    }
+    
+    .rating .rating_block .rating_descr .rating_subtitle{
+        line-height: 21px;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .rating .rating_block .rating_descr .rating_text {
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 21px;
+    }
+    
+    .shop .subtitle{
+        text-align: center;
+      }
+    .shop{
+        min-height: 800px;
+    }
+    .things_subtitle{
+        font-size: 20px;
+        font-weight: 300;
+	    line-height: 31px;
+    }
+    .freestyle #h1{
+        font-size: 33px;
+    }
+    .freestyle #p1{
+        font-size: 17px;
+    }
+    .about_fs .container{
+        margin: 0 auto;
+    }
+    .freestyle #div_2{
+        padding-top: 50px;
+    }
+    .contact{
+        height: 400px;
+    }
+    .full-contact{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .contact #contact-h1{
+        font-size: 30px;
+    }
+    .contact #contact-p1{
+        font-size: 12px;
+    }
+    .contact .contact-sentence{
+        margin-right: 3px;
+    }
+    #logo-form{
+        width: 30px;
+    }
+    #input{
+        border-radius: 5px;
+        width: 140px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 2px;
+    }
+     .contact-forms #b1{
+         font-size: 13px;
+     }
+    .foot{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright, .all_rights{
+        font-size: 13px;
+        color: white;
+    }
+}
+@media (min-width: 767px){
+   #logo_id{
+       margin-top: 10px;
+   }
+}
+@media (min-width: 1023px){
+    #logo_id{
+        margin-top: -90px;
+    }
+   .text{
+       padding: 0 200px 0 200px;
+   }
+}
+
+
+
+
+
+
+
+
